@@ -21,4 +21,3 @@ def logout():
 	print 'test2'
 	
 	
-login('netease', 'password')
