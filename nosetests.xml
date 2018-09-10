@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="1" skip="0"><testcase classname="tests.authentication_tests.StandAloneTests" name="test_login" time="0.003"><failure type="exceptions.AssertionError" message="False is not true&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;I can't authenticate you.&#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/usr/lib/python2.7/dist-packages/mock/mock.py", line 1305, in patched
+    return func(*args, **keywargs)
+  File "/media/gxy/date/git/python-test/tests/authentication_tests.py", line 17, in test_login
+    self.assertTrue(auth.login('netease', 'password'))
+  File "/usr/lib/python2.7/unittest/case.py", line 422, in assertTrue
+    raise self.failureException(msg)
+False is not true
+-------------------- >> begin captured stdout << ---------------------
+I can't authenticate you.
+
+--------------------- >> end captured stdout << ----------------------]]></failure><system-out><![CDATA[I can't authenticate you.
+]]></system-out></testcase></testsuite>
