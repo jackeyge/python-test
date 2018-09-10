@@ -1,0 +1,27 @@
+************* Module project1.authentication
+project1/authentication.py:7: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:8: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:9: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:10: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:11: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:12: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:13: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:14: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:15: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:16: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:17: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:18: [C0303(trailing-whitespace), ] Trailing whitespace
+project1/authentication.py:20: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:21: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+project1/authentication.py:22: [C0303(trailing-whitespace), ] Trailing whitespace
+project1/authentication.py:23: [C0303(trailing-whitespace), ] Trailing whitespace
+project1/authentication.py:6: [C0111(missing-docstring), login] Missing function docstring
+project1/authentication.py:15: [W0703(broad-except), login] Catching too general exception Exception
+project1/authentication.py:11: [R1703(simplifiable-if-statement), login] The if statement can be replaced with 'return bool(test)'
+project1/authentication.py:11: [R1705(no-else-return), login] Unnecessary "else" after "return"
+project1/authentication.py:15: [W0612(unused-variable), login] Unused variable 'exc'
+project1/authentication.py:19: [C0111(missing-docstring), logout] Missing function docstring
+
+--------------------------------------------------------------------
+Your code has been rated at -4.67/10 (previous run: -8.57/10, +3.90)
+
